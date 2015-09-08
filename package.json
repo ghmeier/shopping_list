@@ -1,0 +1,25 @@
+{
+  "name": "shopping_list",
+  "version": "0.0.1",
+  "description": "A shopping list for the chillpad",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ghmeier/shopping_list.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "shopping",
+    "list"
+  ],
+  "author": "Garret Meier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghmeier/shopping_list/issues"
+  },
+  "homepage": "https://github.com/ghmeier/shopping_list#readme"
+}
