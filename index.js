@@ -102,4 +102,10 @@ app.get("/buy",function(req,res){
 
 var server = app.listen(app.get("port"),function(){
 	console.log("Running Chillpad Shopping on port "+app.get("port"));
+
+	var list = fb_root.child("list");
+
+	list.on("value",function(snap){
+		console.log(snap.val());
+	});
 });
