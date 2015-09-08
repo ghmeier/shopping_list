@@ -4,7 +4,8 @@
   "description": "A shopping list for the chillpad",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start":"node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ghmeier/shopping_list/issues"
   },
-  "homepage": "https://github.com/ghmeier/shopping_list#readme"
+  "homepage": "https://github.com/ghmeier/shopping_list#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
